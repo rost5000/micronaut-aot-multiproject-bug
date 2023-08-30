@@ -1,0 +1,6 @@
+rootProject.name = "aot-bug"
+
+include 'module1', 'module2'
+
+project(':module1').projectDir = file 'modules/module1'
+project(':module2').projectDir = file 'modules/module2'
